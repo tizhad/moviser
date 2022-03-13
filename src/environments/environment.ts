@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // baseUrl: "https://www.googleapis.com/books/v1/volumes"
+  baseUrl: "https://www.googleapis.com/books/v1/volumes?q=pride+prejudice&download=epub&key=AIzaSyCBbcV9CKeanfheas2-Hc4zg0sIR019Gt0"
+  // API_URL: "https://www.googleapis.com/books/v1/volumes/kQ0mAAAAMAAJ"
 };
 
 /*
